@@ -1,0 +1,75 @@
+body {
+  font-family: 'BenchNine', sans-serif;
+  font-weight: 300; 
+  padding: 0; 
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.title__container {
+  margin: 0 auto;
+  padding: 2em;
+  text-align: center;
+  background: rgba(0,0,0,0.01);
+}
+
+.title__demo {
+  font-size: 2.625em;
+  line-height: 1.3;
+  margin: 0;
+  font-weight: 300;
+}
+.demo__wrapper {
+  width: 100%;
+  height: 100%;
+
+}
+.demo {  
+  /*background-image: url("../images/Proper_Lift_Demo.gif");*/
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 600px;
+  margin-left: 20%;
+  padding: 0;
+
+}
+.demo__container {
+  width: 49%;
+  float: left;
+  padding-top: 40px;
+  padding-bottom: -40px;
+}
+.bxslider__wrapper {
+  width: 49%;
+  float: right;
+  padding-top: 80px;
+  padding-bottom: -40px;
+}
+.bxslider__wrapper a {
+  color: #000;
+  float: left;
+  margin-left: 125px;
+  display: inline-block;
+  background-color: #d64242;
+  color: #fff;
+  font-size: 1em;
+  padding: 5px 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.5em;
+  border-bottom: 0.25em solid #000;
+  -moz-transition: 0.1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  box-shadow: 0 2px 3px #ccc;
+  position: relative;
+}
+h1 {
+
+  font-size: 30px;
+
+
+}
+/* Clearfix hack */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
