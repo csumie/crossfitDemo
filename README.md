@@ -1,2 +1,2 @@
 # crossfitDemo
-Deadlift Demo Sity
+Deadlift Demo Site
